@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/drawer_menu_school"
+            android:title="@string/drawer_menu_info_school"
+            android:icon="@drawable/ic_home_black_24dp"/>
+        <item
+            android:id="@+id/drawer_menu_my_collection"
+            android:title="@string/drawer_menu_my_collection"
+            android:icon="@drawable/collection"/>
+        <item
+            android:id="@+id/drawer_menu_setting"
+            android:title="@string/drawer_menu_setting_title"
+            android:icon="@mipmap/setting"/>
+        <item
+            android:id="@+id/drawer_menu_about_we"
+            android:title="@string/drawer_menu_about_we"
+            android:icon="@mipmap/setting"/>
+        <item
+            android:id="@+id/drawer_menu_logout"
+            android:title="@string/drawer_menu_logout_title"
+            android:icon="@mipmap/logout"/>
+    </group>
+</menu>
