@@ -12,4 +12,9 @@
     <string name="drawer_menu_setting_title">软件设置</string>
     <string name="nav_view_login_show">登\t\t录</string>
 
+    <string name="tab_home">首页</string>
+    <string name="tab_me">我的</string>
+    <string name="tab_category">分类</string>
+    <string name="tab_cart">购物车</string>
+
 </resources>

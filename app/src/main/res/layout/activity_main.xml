@@ -17,7 +17,6 @@
             android:fitsSystemWindows="false"
             android:theme="@style/AppTheme.AppBarOverlay"
             app:elevation="0dp">
-
             <!--引入定制的Toolbar-->
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
@@ -26,15 +25,10 @@
                 android:background="@color/bg_status_bar"
                 app:navigationIcon="@drawable/ic_arrow_back_white_24dp"
                 app:layout_scrollFlags="scroll|enterAlways">
-
             </androidx.appcompat.widget.Toolbar>
         </com.google.android.material.appbar.AppBarLayout>
         <!--Toolbar下面的布局-->
-        <FrameLayout
-            android:id="@+id/container"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+      <include layout="@layout/activity_lottie_demo"/>
         <!--浮动按钮-->
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floating_action_btn"
@@ -46,18 +40,18 @@
             app:layout_behavior="@string/scale_down_show_behavior"
             app:labelVisibilityMode="labeled"/>
         <!--底部导航，配合视图工具共同作用-->
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/bottom_navigation_main"
-            app:itemTextColor="@drawable/nav_item_color_state"
-            app:itemIconTint="@drawable/nav_item_color_state"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:background="@color/viewBackground"
-            app:elevation="20dp"
-            app:layout_behavior="@string/bottom_behavior"
-            app:menu="@menu/nav_mani_bottom_menu"
-            app:labelVisibilityMode="labeled"/>
+<!--        <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--            android:id="@+id/bottom_navigation_main"-->
+<!--            app:itemTextColor="@drawable/nav_item_color_state"-->
+<!--            app:itemIconTint="@drawable/nav_item_color_state"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="bottom"-->
+<!--            android:background="@color/viewBackground"-->
+<!--            app:elevation="20dp"-->
+<!--            app:layout_behavior="@string/bottom_behavior"-->
+<!--            app:menu="@menu/nav_mani_bottom_menu"-->
+<!--            app:labelVisibilityMode="labeled"/>-->
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
     <!--侧滑隐藏内容-->
     <com.google.android.material.navigation.NavigationView

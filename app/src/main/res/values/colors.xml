@@ -13,4 +13,13 @@
     <color name="drawer_item_bg_n">#fffff9</color>
     <color name="drawer_item_bg_p">#e8e8e8</color>
     <color name="bg_status_bar">#336699</color>
+
+<!--    底部导航-->
+    <color name="selector_grey">#DDDDDD</color>
+    <color name="bbl_999999">#999999</color>
+    <color name="bbl_ff0000">#ff0000</color>
+    <color name="tab_gb">#F3F5F4</color>
+    <color name="tab_normal_color">#515051</color>
+    <color name="tab_selected_color">#D33D3C</color>
+
 </resources>
